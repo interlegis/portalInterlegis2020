@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/animate.css">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -13,28 +14,46 @@
 
 <div id="barra-senado">
     <div class="navbarSenadoDefault navbar navbar-static-top">
-        <div class="NavGlobal-container">
-            <div class="pull-right dropdown" role="navigation"><a data-toggle="dropdown" class="NavGlobal-toggle dropdown-toggle">
-                <div class="Icon Icon--menu Icon--md"></div><span class="u-alignMiddle"> Portais</span></a>
-                <ul class="NavGlobal-dropdownMenu dropdown-menu"><li><a href="http://www.senado.gov.br/institucional/">Institucional</a></li>
-                    <li><a href="http://www25.senado.leg.br/web/senadores/">Senadores</a></li>
-                    <li><a href="http://www25.senado.leg.br/web/atividade/">Atividade Legislativa</a></li>
-                    <li><a href="http://www12.senado.gov.br/noticias/">Notícias</a></li>
-                    <li><a href="http://www12.senado.gov.br/publicacoes/">Publicação e Documentação</a></li>
-                    <li><a href="http://www12.senado.gov.br/orcamento/">Orçamento</a></li>
-                    <li><a href="http://www12.senado.gov.br/transparencia/">Transparência</a></li>
-                    <li><a href="http://www12.senado.gov.br/ecidadania/">e-Cidadania</a></li>
-                </ul></div>
-            <div class="NavGlobal-logo pull-left"><a href="http://www.senado.gov.br/"><img src="//www.senado.gov.br/inc/essencial/img/senado.svg" alt="Senado Federal" height="23" width="170"></a></div>
-            <div class="NavGlobal-middle"><a href="http://www12.senado.gov.br/institucional/falecomosenado">Fale com o Senado</a></div>
-        </div>
+        <a href="http://www.senado.gov.br/"><img src="pic/senadoLogoNavbar.svg" alt="Senado Federal" height="23" width="170"></a>
     </div>
 </div>
 
+<div class="rowLogoInterlegis animated fadeIn">
+    <img src="pic/logoInterlegis.png" class="alinharAoCentro imgLogoProperties">
+</div>
 
+<div class="rowSocialEPesquisa">
+    <div class="rowSocial">
+        <a href="https://www.facebook.com/interlegisonline/"><img src="pic/icon_facebook.png" class="iconProperties"></a>
+        <a href="https://www.instagram.com/interlegis_/"><img src="pic/icon_instagram.png" class="iconProperties"></a>
+        <a href="https://www.youtube.com/channel/UCU4GFKETdCHIAL03RYBVKbA"><img src="pic/icon_youtube.png" class="iconProperties"></a>
+        <a href="https://twitter.com/InterlegisOn/"><img src="pic/icon_twitter.png" class="iconProperties"></a>
+    </div>
 
+    <div class="container rowPesquisa">
+        <form id="livesearch0" action="https://www.interlegis.leg.br/@@search">
+            <div class="row">
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input type="text" class="customRadiusAndHeight search-query form-control" placeholder="Pesquisar" />
+                        <span class="input-group-btn">
+                            <button class="btn btn-danger" type="button">
+                                <span class=" glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
 
-
+    <div class="rowContact">
+        <a href=""><img src="pic/icon_mail.png" class="iconProperties"></a>
+        <a href=""><img src="pic/icon_smile.png" class="iconProperties"></a>
+        <a href=""><img src="pic/icon_darkmode.png" class="iconProperties"></a>
+        <a href=""><img src="pic/icon_libras.png" class="iconProperties"></a>
+    </div>
+</div>
 
 
 
