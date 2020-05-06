@@ -643,7 +643,9 @@ Calendario Finish
     border-width: 1px;
     border-color: #00305c;
 }
-
+.maxHeightCarousel{
+    height: 700px !important;
+}
 .imgSizeCustom{
     max-height: 128px;
     display: block;
@@ -668,4 +670,10 @@ Calendario Finish
 }
 .marginLeft1{
     margin-left: 1%;
+}
+#carouselExampleCaptions>ol{
+    bottom: 1%;
+}
+.propriedadesTextoGeral{
+    text-align: justify !important;
 }
