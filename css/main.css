@@ -604,3 +604,54 @@ Calendario Start
 /*
 Calendario Finish
  */
+
+.subtitlesPage{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.rowNossosProdutos{
+    width: 100%;
+    display: flex;
+}
+.nossosProdutos{
+    width: 20%;
+    padding: 1%;
+}
+.rowTitle{
+    width: 100%;
+}
+.rowContentProdutos{
+    display: flex !important;
+    width: 100%;
+}
+.titulosPersonalizados{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    background-color: #00305c;
+    padding: 10px;
+    margin: 0px !important;
+}
+.espacamentoEntreContainers{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.bordaAzulInterlegis{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #00305c;
+}
+.imgSizeCustom{
+    max-height: 128px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.legbr{
+    margin-top: 16px;
+}
+.edem{
+    margin-top: 26px;
+}
